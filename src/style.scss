@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700&display=swap');
 
 $primary-font: 'Open Sans', sans-serif;
-$background-color: #f6f6f6;
-$fourth-color: #00313C;
-$nav-color: #fbdbcd;
+$background-color: white;
+$secondary-color: #bababa;
+$secondary-text-color: #5a5a5a;
+$third-color: #fffcdd;
+$fourth-color: #e89f8c;
+$fifth-color: #a3bfc5;
+$sixth-color: #f2f0f0;
+$seventh-color: #3b455c;
+$eigth-color: #fbdbcd;
 // #fbdbcd
 // #fffcdd
 // #fef8f7
@@ -24,7 +30,7 @@ $nav-color: #fbdbcd;
 
 
 #hero {
-  background-color: white;
+  background-color: $background-color;
   text-align: center;
   height: 90vh;
   padding-top: 30px;
@@ -38,7 +44,7 @@ $nav-color: #fbdbcd;
   }
 
   h3 {
-    color: #bababa;
+    color: $secondary-color;
     font-size: 15px;
     margin: 0;
     text-transform: uppercase;
@@ -47,7 +53,7 @@ $nav-color: #fbdbcd;
   ul {
     display: flex;
     flex-direction: row;
-    color: #bababa;
+    color: $secondary-color;
     text-transform: uppercase;
     font-size: 15px;
     justify-content: center;
@@ -60,13 +66,13 @@ $nav-color: #fbdbcd;
     & a {
       text-decoration: none;
       position: relative;
-      color: #bababa;
+      color: $secondary-color;
 
       &:after {
         content: "";
         height: 2px;
         width: 100%;
-        background-color: $nav-color;
+        background-color: $fourth-color;
         position: absolute;
         bottom: -4px;
         left: 0;
@@ -75,7 +81,7 @@ $nav-color: #fbdbcd;
       }
 
       &:hover {
-        font-weight: 500;
+        font-weight: 700;
 
         &:after {
           opacity: 1;
@@ -102,7 +108,7 @@ $nav-color: #fbdbcd;
   .each-slide h1 {
     font-size: 60px;
     text-align: center;
-    color: white;
+    color: $background-color;
     letter-spacing: 1px;
     font-weight: 400;
   }
@@ -110,7 +116,7 @@ $nav-color: #fbdbcd;
   .each-slide span {
     font-size: 5px;
     text-align: center;
-    color: white;
+    color: $background-color;
     font-size: 50px;
     font-weight: 500;
   }
@@ -163,19 +169,35 @@ $nav-color: #fbdbcd;
     justify-content: space-evenly;
 
     div:first-child {
-      background-color: #fffcdd;
+      background-color: $third-color;
+      color: $secondary-text-color;
+      p {
+        color: $secondary-text-color;
+      }
     }
 
     div:nth-child(2) {
-      background-color: #fbdbcd;
+      background-color: $fourth-color;
+      color: $third-color;
+      p {
+        color: $third-color;
+      }
     }
 
     div:nth-child(3) {
-      background-color: #bdc2cd;
+      background-color: $fifth-color;
+      color: $sixth-color;
+      p {
+        color: $sixth-color;
+      }
     }
 
     div:last-child {
-      background-color: #5b6884;
+      background-color: $seventh-color;
+      color: $eigth-color;
+      p {
+        color: $eigth-color;
+      }
     }
 
     & div {
@@ -244,7 +266,7 @@ $nav-color: #fbdbcd;
     }
 
     .text-block {
-      color: #bababa;
+      color: $secondary-color;
       text-transform: uppercase;
       font-size: 14px;
       font-weight: 400;
@@ -253,22 +275,22 @@ $nav-color: #fbdbcd;
 
     .images:first-child > .text-block {
       text-decoration: underline;
-      text-decoration-color: #fffcdd;
+      text-decoration-color: $third-color;
     }
 
     .images:nth-child(2) > .text-block {
       text-decoration: underline;
-      text-decoration-color: #fbdbcd;
+      text-decoration-color: $fourth-color;
     }
 
     .images:nth-child(3) > .text-block {
       text-decoration: underline;
-      text-decoration-color: #bdc2cd;
+      text-decoration-color: $fifth-color;
     }
 
     .images:last-child > .text-block {
       text-decoration: underline;
-      text-decoration-color: #5b6884;
+      text-decoration-color: $seventh-color;
     }
 
     .images:hover {
@@ -280,13 +302,13 @@ $nav-color: #fbdbcd;
     text-align: center;
 
     h5 {
-      color: #bababa;
+      color: $secondary-color;
       text-transform: uppercase;
       font-weight: 400;
     }
 
     p {
-      color: #5a5a5a;
+      color: $secondary-text-color;
       font-size: 14px;
     }
 
@@ -296,13 +318,13 @@ $nav-color: #fbdbcd;
       font-size: 14px;
       margin-right: 20px;
       position: relative;
-      color: #5a5a5a;
+      color: $secondary-text-color;
 
       &:after {
         content: "";
         height: 2px;
         width: 100%;
-        background-color: $nav-color;
+        background-color: $fourth-color;
         position: absolute;
         bottom: -4px;
         left: 0;
@@ -311,7 +333,7 @@ $nav-color: #fbdbcd;
       }
 
       &:hover {
-        // color: $fourth-color;
+        font-weight: 700;
 
         &:after {
           opacity: 1;
@@ -333,7 +355,7 @@ $nav-color: #fbdbcd;
   a {
     text-decoration: none;
     text-transform: uppercase;
-    color: #5a5a5a;
+    color: $secondary-text-color;
     font-size: 15px;
     justify-content: center;
     position: relative;
@@ -343,7 +365,7 @@ $nav-color: #fbdbcd;
       content: "";
       height: 2px;
       width: 100%;
-      background-color: $nav-color;
+      background-color: $fourth-color;
       position: absolute;
       bottom: -4px;
       left: 0;
@@ -352,7 +374,7 @@ $nav-color: #fbdbcd;
     }
 
     &:hover {
-      // color: $fourth-color;
+      font-weight: 700;
       cursor: pointer;
 
       &:after {
