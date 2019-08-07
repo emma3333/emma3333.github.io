@@ -144,9 +144,10 @@ $nav-color: #fbdbcd;
 
   .container > div {
     width: 60%;
-    color: #5a5a5a;
+    // color: #5a5a5a;
     font-size: 15px;
     margin: auto;
+    font-weight: 300;
   }
 }
 
@@ -179,7 +180,7 @@ $nav-color: #fbdbcd;
 
     & div {
       width: 18%;
-      padding: 45px 30px;
+      padding: 55px 30px;
       height: 220px;
       // text-align: left;
 
@@ -189,7 +190,7 @@ $nav-color: #fbdbcd;
         font-size: 15px;
         margin: 0;
         text-transform: uppercase;
-        font-weight: 600;
+        font-weight: 400;
       }
 
       p {
@@ -204,8 +205,6 @@ $nav-color: #fbdbcd;
 }
 
 #skills {
-  // margin-top: 80px;
-  // margin-bottom: 80px;
 
   .container {
     height: 160px;
@@ -218,7 +217,7 @@ $nav-color: #fbdbcd;
     justify-content: center;
 
     & i {
-      font-size: 40px;
+      font-size: 38px;
       margin: 12px 30px;
     }
   }
@@ -278,6 +277,7 @@ $nav-color: #fbdbcd;
 
   .project-content {
     padding: 10px 55px;
+    text-align: center;
 
     h5 {
       color: #bababa;
@@ -364,7 +364,7 @@ $nav-color: #fbdbcd;
 
 @media only screen and (max-width: 480px) {
     #about {
-      height: 200px;
+      height: 250px;
       .container {
         h2 {
           margin: 5px;
@@ -387,6 +387,8 @@ $nav-color: #fbdbcd;
         }
       }
       .experience {
+        height: 1000px;
+        margin-top: 20px;
         display: flex;
         flex-direction: column;
         align-self: center;
@@ -426,6 +428,7 @@ $nav-color: #fbdbcd;
       }
         .project-content {
           padding: 20px;
+          text-align: left;
         }
     }
   }
