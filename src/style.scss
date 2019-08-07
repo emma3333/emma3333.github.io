@@ -422,82 +422,82 @@ $nav-color: #fbdbcd;
     }
   }
 
-
-  @media only screen and (max-width: 768px) {
-    #hero {
-      margin-left: 80px;
-    }
-    #about {
-      margin-left: 50px;
-      height: 200px;
-      .container {
-        h2 {
-          margin: 5px;
-        }
-        div {
-          width: 90%;
-          padding: 20px;
-          p {
-            font-size: 14px;
-          }
-        }
-      }
-    }
-    #experience {
-      margin-left: 50px;
-
-      .container {
-        height: 400px;
-        h2 {
-          margin: 20px;
-        }
-      }
-      .experience {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-
-          div {
-            width: 40%;
-            padding: 20px;
-          }
-        }
-      }
-      #skills {
-        height: 200px;
-        margin-top: 300px;
-        margin-left: 50px;
-
-        .container {
-          width: 100%;
-          flex-wrap: wrap;
-          display: flex;
-
-          i {
-            margin: 15px;
-          }
-        }
-      }
-    #projects {
-      .project-images {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        font-weight: 300;
-        font-size: 14px;
-
-        img {
-          margin: 12px 20px;
-        }
-      }
-        .project-content {
-          text-align: center;
-          width: 100%;
-          padding: 20px;
-        }
-    }
-  }
+  //
+  // @media only screen and (max-width: 768px) {
+  //   #hero {
+  //     margin-left: 80px;
+  //   }
+  //   #about {
+  //     margin-left: 50px;
+  //     height: 200px;
+  //     .container {
+  //       h2 {
+  //         margin: 5px;
+  //       }
+  //       div {
+  //         width: 90%;
+  //         padding: 20px;
+  //         p {
+  //           font-size: 14px;
+  //         }
+  //       }
+  //     }
+  //   }
+  //   #experience {
+  //     margin-left: 50px;
+  //
+  //     .container {
+  //       height: 400px;
+  //       h2 {
+  //         margin: 20px;
+  //       }
+  //     }
+  //     .experience {
+  //       display: flex;
+  //       flex-wrap: wrap;
+  //       align-items: center;
+  //
+  //         div {
+  //           width: 40%;
+  //           padding: 20px;
+  //         }
+  //       }
+  //     }
+  //     #skills {
+  //       height: 200px;
+  //       margin-top: 300px;
+  //       margin-left: 50px;
+  //
+  //       .container {
+  //         width: 100%;
+  //         flex-wrap: wrap;
+  //         display: flex;
+  //
+  //         i {
+  //           margin: 15px;
+  //         }
+  //       }
+  //     }
+  //   #projects {
+  //     .project-images {
+  //       width: 100%;
+  //       display: flex;
+  //       justify-content: center;
+  //       flex-wrap: wrap;
+  //       font-weight: 300;
+  //       font-size: 14px;
+  //
+  //       img {
+  //         margin: 12px 20px;
+  //       }
+  //     }
+  //       .project-content {
+  //         text-align: center;
+  //         width: 100%;
+  //         padding: 20px;
+  //       }
+  //   }
+  // }
 // @media only screen and (max-width: 480px) {
 //     #about {
 //       width: 90%;
