@@ -9,7 +9,7 @@ module.exports = {
     path: path.resolve('dist'),
     filename: 'app.js'
   },
-  devtool: 'source-maps',
+  devtool: 'source-map',
   module: {
     rules: [
       { test: /\.jsx?$/, loader: 'babel-loader', exclude: /node_modules/ },
@@ -19,11 +19,10 @@ module.exports = {
     ]
   },
   devServer: {
-    contentBase: path.resolve('src'),
     hot: true,
-    open: true,
+    inline: true,
     port: 8000,
-    watchContentBase: true
+    open: true
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),

@@ -71,7 +71,7 @@ class Projects extends React.Component {
             {this.state.projects.map((project) =>
               <div className="images" key={project.id}>
                 <img src={project.image} alt="Project screenshot" onClick={this.handleClick} id={project.id}/>
-                {project.title}
+                <div className="text-block"><p>{project.title}</p></div>
               </div>
             )}
           </div>

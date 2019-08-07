@@ -5,13 +5,13 @@ const Skills = () => {
     <section id="skills">
       <h2>Skills</h2>
       <div className="container">
+        <i className="devicon-javascript-plain "></i>
         <i className="devicon-atom-original-wordmark "></i>
         <i className="devicon-css3-plain-wordmark "></i>
         <i className="devicon-git-plain-wordmark "></i>
         <i className="devicon-github-plain-wordmark "></i>
         <i className="devicon-html5-plain-wordmark "></i>
         <i className="devicon-heroku-original-wordmark "></i>
-        <i className="devicon-javascript-plain "></i>
         <i className="devicon-mongodb-plain-wordmark "></i>
         <i className="devicon-nodejs-plain-wordmark "></i>
         <i className="devicon-postgresql-plain-wordmark"></i>
