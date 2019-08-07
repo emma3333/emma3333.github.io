@@ -208,15 +208,18 @@ $nav-color: #fbdbcd;
   // margin-bottom: 80px;
 
   .container {
-    height: 100px;
+    height: 160px;
     text-align: center;
     display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 700px;
     align-items: center;
     justify-content: center;
 
     & i {
       font-size: 40px;
-      margin: 0 30px;
+      margin: 12px 30px;
     }
   }
 
@@ -267,6 +270,10 @@ $nav-color: #fbdbcd;
     .images:last-child > .text-block {
       text-decoration: underline;
       text-decoration-color: #5b6884;
+    }
+
+    .images:hover {
+      cursor: pointer;
     }
 
   .project-content {
@@ -396,6 +403,7 @@ $nav-color: #fbdbcd;
 
       .container {
         flex-wrap: wrap;
+        width: 100%;
         display: flex;
 
         i {
