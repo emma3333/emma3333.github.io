@@ -39,7 +39,7 @@ class Projects extends React.Component {
           id: '4',
           title: 'Project Four: Wild Swimming',
           tech: 'JavaScript | React | Webpack | AJAX | Python | Flask | PostgreSQL | HTML | Bulma | SCSS | GitHub | Axios | Git',
-          text: 'Inspired by my love of swimming outdoors, I decided to base my final project at GA on wild swimming places across the UK. The brief was to create a full-stack application by making my own back end using a Python Flask API with a Postgres database for the back end, and a front end built with React. The application had to enable a user to register, login and add content. I also used React-mapbox-gl and Dark Sky APIs in addition to my own to enhance the application.',
+          text: 'Inspired by my love of swimming outdoors, I decided to base my final project at GA on wild swimming places across the UK. The brief was to create a full-stack application by making my own back end using a Python Flask API with a Postgres database, and a front end built with React. The application had to enable a user to register, login and add content. I also used React-mapbox-gl and Dark Sky APIs in addition to my own to enhance the application.',
           image: 'https://i.imgur.com/exbU0J0.png',
           repo: 'https://github.com/emma3333/SEI-Project-04',
           site: 'https://wild-swimming.herokuapp.com/#/'
