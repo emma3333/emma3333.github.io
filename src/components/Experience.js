@@ -6,6 +6,11 @@ const Experience = () => {
       <div className="container">
         <h2>Experience</h2>
         <div className="experience">
+        <div>
+            <img height="50" src="https://marcommnews.com/wp-content/uploads/2018/10/DofFsKUXkAM503j-701x395.jpg" alt="Kin and Carta logo"/>
+            <h3>Associate Web Developer</h3>
+            <p>Kin + Carta Create is the product development and software engineering pillar of Kin + Carta, a global digital transformation business, designing and launching new digital products and services and unlocking future innovation through modernisation initiatives.</p>
+          </div>
           <div>
             <img height="40" src="http://static-assets.generalassemb.ly/logos/generalassembly-open-graph.png" alt="General Assembly Logo" />
             <h3>Teaching Assistant</h3>
@@ -20,11 +25,6 @@ const Experience = () => {
             <img height="40" src="https://www.carolineinternational.com/wp-content/themes/carolineinternational/library/images/caroline-logo.png" alt="Caroline Internationl Logo"/>
             <h3>Sales Manager</h3>
             <p>Managed sales for Caroline International & Fiction Records, working with artists such as Iggy Pop, Glass Animals, Mytsery Jets, Kate Tempest, Travis, Van Morrison, Underworld and David Brent.</p>
-          </div>
-          <div>
-            <img height="40" src="https://upload.wikimedia.org/wikipedia/en/9/95/Deccablacklogo.png" alt="Decca Records Logo"/>
-            <h3>Sales Manager</h3>
-            <p>Managed the weekly sales cycle of all Decca releases (specialist, catalogue and frontline) for a diverse roster of artists including Max Richter, Olafur Arnalds, Katherine Jenkins, The Lumineers and Aurora.</p>
           </div>
         </div>
       </div>
